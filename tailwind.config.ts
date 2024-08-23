@@ -29,7 +29,7 @@ const config: Config = {
         yellow: "hsl(51, 100%, 49%)",
         graphicsDesignText: " hsl(167, 40%, 24%)",
         darkBlue: "hsl(198, 62%, 26%)",
-        footer: "hsl(168, 34%, 41%)",
+        footer: "#8BD5C5",
       },
     },
   },

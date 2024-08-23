@@ -24,7 +24,7 @@ const TransformBrand = () => {
       </div>
 
       {/* right side */}
-      <div className="order-1 ">
+      <div className="">
         <Image
           src={TranformImgDesktop}
           alt="Tranform Image"

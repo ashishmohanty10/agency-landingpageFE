@@ -23,8 +23,8 @@ const ColaborativeFormula = () => {
 
       {/* right side */}
       <div className="space-y-10 py-8 flex items-center xl:items-start justify-center flex-col px-10 text-center xl:text-left xl:pl-36 ">
-        <h2 className="font-title font-bold text-4xl xl:text-5xl leading-10 text-center xl:text-left">
-          Stand out to the right <br /> audience
+        <h2 className="font-title font-bold text-4xl xl:text-5xl leading-10 text-center xl:text-left ">
+          Stand out to the right audience
         </h2>
 
         <p className="text-slate-500 font-body font-semibold text-lg xl:w-[450px]">

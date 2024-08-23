@@ -21,7 +21,7 @@ function Hero() {
       </div>
 
       <div className="w-full py-12 h-[89vh]">
-        <h1 className="text-7xl md:text-6xl font-bold text-white font-title text-center tracking-tight md:tracking-widest mb-32 ">
+        <h1 className="text-7xl md:text-6xl font-bold text-white font-title text-center tracking-tight md:tracking-widest mb-24 md:mb-80 xl:mb-60 ">
           WE ARE CREATIVES
         </h1>
 

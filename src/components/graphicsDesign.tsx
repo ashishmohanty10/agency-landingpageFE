@@ -20,9 +20,11 @@ const GraphicsDesign = () => {
           alt="Graphics design desktop version"
         />
 
-        <div className="absolute bottom-10 left-0 flex flex-col text-center  items-center justify-center w-full text-graphicsDesignText space-y-10">
-          <h2 className="font-title font-bold text-2xl">Graphics Design</h2>
-          <p className="font-body text-lg font-semibold xl:w-[400px] w-[300px]">
+        <div className="absolute bottom-10 md:bottom-64 xl:bottom-10 left-0 flex flex-col text-center  items-center justify-center w-full text-graphicsDesignText space-y-10">
+          <h2 className="font-title font-bold text-2xl md:text-5xl">
+            Graphics Design
+          </h2>
+          <p className="font-body text-lg font-semibold md:w-[400px] w-[300px]">
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential client'
             attention
@@ -43,9 +45,11 @@ const GraphicsDesign = () => {
           className="w-full object-contain block xl:hidden"
         />
 
-        <div className="absolute bottom-10 left-0 flex flex-col text-center items-center justify-center w-full text-graphicsDesignText space-y-10">
-          <h2 className="font-title font-bold text-2xl">Photography</h2>
-          <p className="font-body text-lg font-semibold xl:w-[400px] w-[300px]">
+        <div className="absolute bottom-10 md:bottom-64 xl:bottom-10 left-0 flex flex-col text-center items-center justify-center w-full text-graphicsDesignText space-y-10">
+          <h2 className="font-title font-bold text-2xl md:text-5xl">
+            Photography
+          </h2>
+          <p className="font-body text-lg md:text-xl xl:text-lg font-semibold md:w-[400px] w-[300px]">
             Increase your credibilty by getting the most stunning, high-quality
             photos that improve your business image
           </p>
