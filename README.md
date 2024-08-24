@@ -21,3 +21,7 @@ pnpm run dev
 ### Desktop
 
 <img src="./public/preview1.png" />
+
+### Mobile
+
+<img src="./public/preview2.png" />
