@@ -1,4 +1,4 @@
-# Frontend Mentor Landing Page challege
+# Frontend Mentor Landing Page Challenge
 
 ```
 <!-- clone the project  -->

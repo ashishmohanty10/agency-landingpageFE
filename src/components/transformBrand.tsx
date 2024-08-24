@@ -6,7 +6,7 @@ const TransformBrand = () => {
   return (
     <section className="w-full grid grid-cols-1 xl:grid-cols-2 justify-between items-center ">
       {/* left side  */}
-      <div className="space-y-10 py-8 flex items-center xl:items-start justify-center flex-col px-10 text-center xl:text-left xl:pl-36">
+      <div className="space-y-10 py-8 flex items-center xl:items-start justify-center flex-col px-10 text-center xl:text-left xl:pl-36 order-last xl:order-first">
         <h2 className="font-title font-bold text-4xl xl:text-5xl leading-10 text-center xl:text-left">
           Transfrom your <br /> brands
         </h2>
