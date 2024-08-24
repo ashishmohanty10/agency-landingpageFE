@@ -45,8 +45,8 @@ const Navbar = () => {
         </div>
 
         {isNavOpen && (
-          <div className="flex flex-col justify-center items-center  absolute top-32 right-0 w-full bg-white text-black p-10 space-y-5 font-body text-sm font-medium rounded-sm">
-            <div className="w-0 h-0 absolute top-0 right-0 rotate-180  -translate-y-[29px] translate-x-[.2px] border-l-[25px] border-l-transparent border-t-[30px] border-t-white border-r-[25px] border-r-transparent"></div>
+          <div className="flex flex-col justify-center items-center  absolute top-32 right-0 w-full bg-white text-black p-10 space-y-5 font-body text-sm font-medium ">
+            <div className="w-0 h-0 absolute top-0 right-0   -translate-y-[29px] translate-x-[.2px] border-l-[25px] border-l-transparent border-b-[30px] border-b-white border-r-[25px] border-r-transparent"></div>
 
             {navLinks.map((data, idx) => (
               <Link href={data.href} key={idx}>
