@@ -6,6 +6,7 @@ import Link from "next/link";
 import { navLinks } from "@/constant/constants";
 import Logo from "/public/logo.svg";
 import HamburgerIcon from "/public/icon-hamburger.svg";
+import IconClose from "/public/icon-close.svg";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState<boolean>(false);
@@ -36,11 +37,17 @@ const Navbar = () => {
 
       <div className="block xl:hidden ">
         <div onClick={() => setIsNavOpen(!isNavOpen)}>
-          <Image src={HamburgerIcon} alt="Hambuger icon" />
+          {isNavOpen ? (
+            <Image src={IconClose} alt="Hambuger icon" />
+          ) : (
+            <Image src={HamburgerIcon} alt="Hambuger icon" />
+          )}
         </div>
 
         {isNavOpen && (
-          <div className="flex flex-col justify-center items-center rounded-lg absolute top-20 right-0 w-full bg-white text-black p-10 space-y-5 font-body text-sm font-medium">
+          <div className="flex flex-col justify-center items-center  absolute top-32 right-0 w-full bg-white text-black p-10 space-y-5 font-body text-sm font-medium rounded-sm">
+            <div className="w-0 h-0 absolute top-0 right-0 rotate-180  -translate-y-[29px] translate-x-[.2px] border-l-[25px] border-l-transparent border-t-[30px] border-t-white border-r-[25px] border-r-transparent"></div>
+
             {navLinks.map((data, idx) => (
               <Link href={data.href} key={idx}>
                 {data.name}
