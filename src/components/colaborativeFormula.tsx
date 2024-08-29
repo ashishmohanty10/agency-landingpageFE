@@ -7,7 +7,7 @@ const ColaborativeFormula = () => {
   return (
     <section className="w-full grid grid-cols-1 xl:grid-cols-2 justify-between items-center">
       {/* left side  */}
-      <div className="">
+      <div>
         <Image
           src={StandOutDesktop}
           alt="Standout Image for Desktop"
@@ -29,8 +29,8 @@ const ColaborativeFormula = () => {
 
         <p className="text-slate-500 font-body font-semibold text-lg xl:w-[450px]">
           Using a collaborative formula of designers, researchers,
-          photographers, videographers, and copywriters, we'll build and extend
-          your brand in digital places.
+          photographers, videographers, and copywriters, we&apos;ll build and
+          extend your brand in digital places.
         </p>
 
         <div className="font-title font-bold text-xl group  relative transition-all h-7 w-fit group">
