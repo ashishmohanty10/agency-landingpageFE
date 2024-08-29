@@ -26,7 +26,7 @@ const GraphicsDesign = () => {
           </h2>
           <p className="font-body text-lg font-semibold md:w-[400px] w-[300px]">
             Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential client'
+            underscores your brand message and captures potential client&apos;s
             attention
           </p>
         </div>

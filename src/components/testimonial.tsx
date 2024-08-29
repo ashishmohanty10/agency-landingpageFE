@@ -6,7 +6,7 @@ import user3 from "/public/image-jennie.jpg";
 const Testimonial = () => {
   return (
     <section className="w-full py-32">
-      <h2 className="text-center font-title font-2xl font-bold text-slate-400 mb-16">
+      <h2 className="text-center font-title font-bold text-slate-400 mb-16">
         CLIENT TESTIMONIAL
       </h2>
 
@@ -45,8 +45,8 @@ const Testimonial = () => {
           </div>
 
           <p className="w-[400px] text-center font-body text-lg font-semibold text-slate-600">
-            Sunnyside's enthusiasm coupled with their keen interst in our
-            brands's success made it a satisfying and enjoyable experience
+            Sunnyside&apos;s enthusiasm coupled with their keen interst in our
+            brands&apos;s success made it a satisfying and enjoyable experience
           </p>
 
           <div className="text-center  space-y-3">
